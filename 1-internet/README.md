@@ -2,7 +2,7 @@
 
 ## History Of Internet.
 The internet originated from an experiment carried out by the defence department. This project was called ARPANET. 
-     > ARPANET: Advanced Research Project Agency Network
+> ARPANET: Advanced Research Project Agency Network
 The experiment was aimed at building a communication system that may survive nuclear disasters/attacks. His design was breaking messages into blocks and sending them fast through the meshed network. The messages are scattered into packets(these packets hold small bits of the message as a whole) which are then sent through one origin node, scattered throughout the various nodes of the network and reassemble at the destination node to form whatever was sent as the information in the first place. 
 
 ## Components Of The Internet
@@ -17,9 +17,9 @@ Well...they sure aren't sent as emails :), rather they could be sent over the fo
 * Wireless signals(i.e. radio waves)
 
 Considering the fact that the sizes of media files sent over the internet varies greatly, into bits, bytes(8 bits), kilobytes(1024 bits), megabytes(1024 kilobytes), etc. If a person wishes to recieve of transfer information faster, the _bandwith_ of the device being used to access the internet must be increased.
-     > Bandwidth: The maximum transfer capacity of a device. Bandwidth is measured using bit rate. 
-     > Bit rate: the total number of bits transferred over a given time, preferably seconds: bit per seconds.
-     > Latency: is the different amount of speed taken for a piece of information to be transferred from the source to the destination.
+> Bandwidth: The maximum transfer capacity of a device. Bandwidth is measured using bit rate. 
+> Bit rate: the total number of bits transferred over a given time, preferably seconds: bit per seconds.
+> Latency: is the different amount of speed taken for a piece of information to be transferred from the source to the destination.
 
 ## Transfer Media
 Earlier we mentioned some media used for transfer of bits, the likes of ethernet cables, fibre optic cables, and wireless transmission.
@@ -50,11 +50,11 @@ Earlier we mentioned some media used for transfer of bits, the likes of ethernet
 The internet relies on protocols for the transfer and recieval of data. These set of protocols are known as IP(Internet Protocol), it is a set of rules and standards used to communicate between machines. 
 Each and every computer on the internet has its own unique address that is used during communication.User1 on his computer sends a request to User2 for a set of information on his own computer. The request is sent to the IP address of User2, and this request also holds the address of User1 to facilitate easy response being sent from User2 back to User1.
 **IP ADDRESS:** An IP address has many parts just like every other regular address has many parts making up the address. The IP address is also represented in bits _because it is a digital information_. The IP address is made up of 32bits with each part containing 8bits each e.g 174.129.23.114
-     > interpretation of each bytes IPv4.
-     * First byte: Country/Network
-     * Second byte: Region/Network
-     * Third byte: Sub-Network
-     * Last byte: Device
+> interpretation of each bytes IPv4.
+>    * First byte: Country/Network
+>    * Second byte: Region/Network
+>    * Third byte: Sub-Network
+>    * Last byte: Device
 The IPv4, though being able to provide up to 4 billion unique IP addresses for users/devices on the internet is definetely not capable of keeping an infinite supply for the indefinite demand of users. 
 So therefore, the transition to a newer version of IP address(IPv6) which is made up of 128 bits and capable of providing  up to 340 undecillion unique address (36 zeros, for folks who have never heard of that value before, just like me :stuck_out_tongue:)
 
@@ -74,9 +74,9 @@ These makes the internet reliabe and efficient.
 ## HTTP and HTML
 HTTP  is the standard protocol by which webpages are transferred over the Internet. While HTML is the language that is used to tell the browser how the page is to be arranged/formatted.
 When a client/user opens the web browser on his device(either smart phone, desktop, laptops, tablets, etc) types an address/URL and hit "enter". What happens under the hood is that your computer starts talking with another computer called a server(and this conversation is completed using a language both the server and browser understand - HTTP). The computer asks the server for the contents of the website in the address using "GET requests", and the response(website) provided is interpreted and arranged by the browser with the help of HTML, thereby making the view of the website understandable for the user.
-	> HTTP: HyperText Transfer Protocol
-	> HTML: HyperText Markup Language
-	> URL: Uniform Resource Locator
+> HTTP: HyperText Transfer Protocol
+> HTML: HyperText Markup Language
+> URL: Uniform Resource Locator
 
 
 ## Cryptography/Cryptology
